@@ -1,0 +1,22 @@
+{
+  "name": "agentpay-protocol",
+  "version": "0.1.0",
+  "description": "Native payment & settlement middleware for AI agents using HTTP 402 and XRP Ledger",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node-dev src/index.ts"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "xrpl": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
+  },
+  "license": "MIT"
+}
